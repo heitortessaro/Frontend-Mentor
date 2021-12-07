@@ -6,7 +6,27 @@
 }
 
 body {
+    width: 1440px;
     background-color: var(--darkCyan);
     /* background-image: url('/images/bg-pattern-bottom.svg'); */
 }
+
+main {
+    width: 500px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
 
