@@ -1,32 +1,31 @@
 :root {
-    --darkCyan: hsl(185, 75%, 39%);
-    --veryDarkDesaturatedBlue: hsl(229, 23%, 23%);
-    --darkGrayishBlue: hsl(227, 10%, 46%);
-    --darkGray: hsl(0, 0%, 59%);
+ /* Primary */
+ --darkCyan: hsl(185, 75%, 39%);
+ --veryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+ --darkGrayishBlue: hsl(227, 10%, 46%);
+ /* Neutral */
+ --darkGray: hsl(0, 0%, 59%);
 }
 
 body {
-    width: 1440px;
-    background-color: var(--darkCyan);
-    /* background-image: url('/images/bg-pattern-bottom.svg'); */
+ width: 1440px;
+ background-color: var(--darkCyan);
+ /* background-image: url('/images/bg-pattern-bottom.svg'); */
 }
 
 main {
-    width: 500px;
-    display: block;
-    margin: auto;
-    text-align: center;
-    border-radius: 25px;
-    background-color: white;
+ width: 500px;
+ display: block;
+ margin: auto;
+ text-align: center;
+ border-radius: 25px;
+ background-color: white;
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
-
-
-
+ font-size: 11px;
+ text-align: center;
+}
+.attribution a {
+ color: hsl(228, 45%, 44%);
+}
