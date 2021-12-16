@@ -17,7 +17,7 @@ body {
 }
 
 main {
- width: 400px;
+ width: 350px;
  height: 400px;
  display: block;
  margin: auto;
@@ -45,4 +45,35 @@ img {
  border-radius: 50%;
  border: 8px solid white;
  transform: translateY(-55px);
+ /* position: relative;
+ top: -55px; */
+}
+
+#information {
+ transform: translateY(-55px);
+}
+
+#personal-info {
+ padding-bottom: 30px;
+}
+
+.main-text {
+ padding: 25px 0 10px 0;
+ margin: 0;
+ font-size: 18px;
+}
+
+.sub-text {
+ font-size: 12px;
+ margin: 0;
+}
+
+#social-numbers {
+ border-top: 1px solid hsla(0, 0%, 59%, 0.212);
+}
+
+#social-numbers div {
+ display: inline-block;
+ margin: auto;
+ margin: 0 20px;
 }
