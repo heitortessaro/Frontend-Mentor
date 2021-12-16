@@ -74,6 +74,15 @@ section h2 {
  border-radius: 0 10px 10px 0;
 }
 
+button {
+ padding: 10px 30px;
+ background-color: transparent;
+ color: var(--veryLightGray);
+ border: 2px solid var(--veryLightGray);
+ border-radius: 20px;
+ cursor: pointer;
+}
+
 .attribution {
  font-size: 11px;
  text-align: center;
