@@ -1,3 +1,49 @@
+:root {
+ /* Primary */
+ --darkCyan: hsl(185, 75%, 39%);
+ --veryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+ --darkGrayishBlue: hsl(227, 10%, 46%);
+ /* Neutral */
+ --darkGray: hsl(0, 0%, 59%);
+
+ --brightOrange: hsl(31, 77%, 52%);
+ --darkCyan: hsl(184, 100%, 22%);
+ --veryDarkCyan: hsl(179, 100%, 13%);
+ /* Neutral */
+ /* (paragraphs) */
+ --transparentWhite: hsla(0, 0%, 100%, 0.75);
+ /* (background, headings, buttons) */
+ --veryLightGray: hsl(0, 0%, 95%);
+}
+
+html,
+body {
+ height: 100%;
+}
+
+body {
+ width: 100%;
+ background-color: var(--veryLightGray);
+ position: relative;
+}
+
+main {
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: auto;
+ text-align: center;
+}
+
+section {
+ width: 250px;
+ height: 500px;
+ border: 1px solid red;
+ display: inline-block;
+ text-align: left;
+}
+
 .attribution {
  font-size: 11px;
  text-align: center;
