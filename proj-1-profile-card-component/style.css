@@ -1,0 +1,123 @@
+:root {
+ /* Primary */
+ --darkCyan: hsl(185, 75%, 39%);
+ --veryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+ --darkGrayishBlue: hsl(227, 10%, 46%);
+ /* Neutral */
+ --darkGray: hsl(0, 0%, 59%);
+}
+
+html,
+body {
+ height: 100%;
+}
+
+body {
+ margin: 0;
+ width: 1440px;
+ background-color: var(--darkCyan);
+ background-image: url('/images/bg-pattern-bottom.svg'),
+  url('/images/bg-pattern-top.svg');
+ background-repeat: no-repeat, no-repeat;
+ background-position: 140% -180%, -60% 230%;
+
+ font-family: 'Kumbh Sans', sans-serif;
+ font-weight: 400;
+ color: var(--darkGrayishBlue);
+
+ position: relative;
+}
+
+main {
+ width: 350px;
+ height: 400px;
+ /* display: block; */
+ /* margin: auto; */
+ text-align: center;
+ border-radius: 25px;
+ background-color: white;
+ /* Absolute + margin auto: https://levelup.gitconnected.com/10-ways-to-center-a-div-horizontally-and-vertically-in-css-53ca5eb912db */
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ margin: auto;
+}
+
+.attribution {
+ font-size: 11px;
+ text-align: center;
+}
+.attribution a {
+ color: hsl(228, 45%, 44%);
+}
+
+#header {
+ background-image: url('/images/bg-pattern-card.svg');
+ /* border: 1px solid red; */
+ height: 35%;
+ border-radius: 25px 25px 0 0;
+}
+
+img {
+ border-radius: 50%;
+ border: 8px solid white;
+ transform: translateY(-55px);
+ /* position: relative;
+ top: -55px; */
+}
+
+#information {
+ transform: translateY(-55px);
+}
+
+#personal-info {
+ padding-bottom: 30px;
+}
+
+.main-text {
+ padding: 25px 0 10px 0;
+ margin: 0;
+ font-size: 18px;
+}
+
+.sub-text {
+ font-size: 14px;
+ margin: 0;
+}
+
+strong {
+ font-weight: 700;
+ color: black;
+}
+
+#social-numbers {
+ border-top: 1px solid hsla(0, 0%, 59%, 0.212);
+}
+
+#social-numbers div {
+ display: inline-block;
+ margin: auto;
+ margin: 0 20px;
+}
+
+#social-numbers .sub-text {
+ letter-spacing: 2px;
+ font-size: 12px;
+}
+
+#attribution {
+ position: absolute;
+ bottom: 0;
+ text-align: center;
+ width: 100%;
+ color: black;
+ direction: none;
+}
+
+#attribution a {
+ text-decoration: none;
+ font-weight: 700;
+ color: var(--veryDarkDesaturatedBlue);
+}
