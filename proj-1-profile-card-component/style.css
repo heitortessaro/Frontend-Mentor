@@ -14,13 +14,11 @@ body {
   url('/images/bg-pattern-top.svg');
  background-repeat: no-repeat, no-repeat;
  background-position: 140% -110%, -60% 120%;
- /* background-position: right bottom; */
- /* background-color: 50% 50%; */
- /* background-size: ; */
 }
 
 main {
- width: 500px;
+ width: 400px;
+ height: 400px;
  display: block;
  margin: auto;
  text-align: center;
@@ -34,4 +32,17 @@ main {
 }
 .attribution a {
  color: hsl(228, 45%, 44%);
+}
+
+#header {
+ background-image: url('/images/bg-pattern-card.svg');
+ /* border: 1px solid red; */
+ height: 35%;
+ border-radius: 25px 25px 0 0;
+}
+
+img {
+ border-radius: 50%;
+ border: 8px solid white;
+ transform: translateY(-55px);
 }
