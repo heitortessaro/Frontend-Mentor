@@ -1,16 +1,51 @@
-:root{
-/* Primary */
---cyan: hsl(179, 62%, 43%)
---brightYellow: hsl(71, 73%, 54%)
-/* Neutral */
---lightGray: hsl(204, 43%, 93%)
---grayishBlue: hsl(218, 22%, 67%)
+:root {
+ /* Primary */
+ --cyan: hsl(179, 62%, 43%);
+ --brightYellow: hsl(71, 73%, 54%);
+ /* Neutral */
+ --lightGray: hsl(204, 43%, 93%);
+ --grayishBlue: hsl(218, 22%, 67%);
 }
 
 html,
 body {
-    height: 100%;
-    font-family: 'Karla', sans-serif;;
+ height: 100%;
+ font-family: 'Karla', sans-serif;
+ font-size: 16px;
+ background-color: var(--lightGray);
+}
+
+header {
+ background-color: white;
+}
+
+h1 {
+ color: var(--cyan);
+}
+
+header h2 {
+ color: var(--brightYellow);
+}
+
+header p {
+ color: var(--grayishBlue);
+}
+
+section {
+ color: var(--lightGray);
+}
+
+#subscription {
+ background-color: hsl(179, 62%, 38%);
+}
+
+#reasons {
+ background-color: var(--cyan);
+}
+
+button {
+ color: var(--lightGray);
+ background-color: var(--brightYellow);
 }
 
 .attribution {
