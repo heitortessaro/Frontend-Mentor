@@ -1,0 +1,116 @@
+:root {
+ --brightOrange: hsl(31, 77%, 52%);
+ --darkCyan: hsl(184, 100%, 22%);
+ --veryDarkCyan: hsl(179, 100%, 13%);
+ /* Neutral */
+ /* (paragraphs) */
+ --transparentWhite: hsla(0, 0%, 100%, 0.75);
+ /* (background, headings, buttons) */
+ --veryLightGray: hsl(0, 0%, 95%);
+}
+
+html,
+body {
+ height: 100%;
+}
+
+body {
+ width: 100%;
+ background-color: var(--veryLightGray);
+ position: relative;
+}
+
+main {
+ text-align: center;
+ /* border: 1px red solid; */
+ height: 450px;
+ /* width: 758px; */
+
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: auto;
+ font-size: 0;
+}
+
+section {
+ padding: 60px 35px;
+ margin: 0;
+ width: 220px;
+ height: 350px;
+ /* border: 1px solid red; */
+ display: inline-block;
+ text-align: left;
+
+ /* float: left; */
+}
+
+section p {
+ font-family: 'Lexend Deca', sans-serif;
+ font-size: 15px;
+ color: var(--transparentWhite);
+}
+
+section h2 {
+ font-family: 'Big Shoulders Display', cursive;
+ font-size: 35px;
+ text-transform: uppercase;
+ color: var(--veryLightGray);
+}
+
+#sedans {
+ background-color: var(--brightOrange);
+ border-radius: 10px 0 0 10px;
+}
+
+#suvs {
+ background-color: var(--darkCyan);
+}
+
+#luxury {
+ background-color: var(--veryDarkCyan);
+ border-radius: 0 10px 10px 0;
+}
+
+button {
+ padding: 15px 30px;
+ background-color: transparent;
+ color: var(--veryLightGray);
+ border: 2px solid var(--veryLightGray);
+ border-radius: 25px;
+ cursor: pointer;
+ position: absolute;
+ bottom: 30px;
+}
+
+.attribution {
+ font-family: 'Lexend Deca', sans-serif;
+ font-size: 13px;
+ text-align: center;
+ position: absolute;
+ bottom: 10px;
+ width: 100%;
+ color: black;
+}
+.attribution a {
+ color: hsl(228, 45%, 44%);
+ text-decoration: none;
+ font-weight: 700;
+}
+
+/* #attribution {
+ position: absolute;
+ bottom: 0;
+ text-align: center;
+ width: 100%;
+ color: black;
+ direction: none;
+}
+
+#attribution a {
+ text-decoration: none;
+ font-weight: 700;
+ color: var(--veryDarkDesaturatedBlue);
+} */
