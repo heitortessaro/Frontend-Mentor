@@ -30,13 +30,14 @@ header,
 section {
  margin: auto;
  display: inline-block;
- width: 700px;
 }
 
 header {
  background-color: white;
- padding: 40px;
+ width: 700px;
+ padding: 20px 40px 20px 40px;
  text-align: left;
+ border-radius: 10px 10px 0 0;
 }
 
 h1 {
@@ -58,20 +59,25 @@ section {
 div {
  display: inline-block;
  font-size: 16px;
- width: 250px;
- padding: 40px;
+ width: 340px;
+ padding: 30px 10px 30px 40px;
 
  text-align: left;
+ vertical-align: top;
 
  color: var(--lightGray);
+
+ transform: translateY(-15px);
 }
 
 #subscription {
- background-color: hsl(179, 62%, 38%);
+ background-color: hsl(179, 62%, 40%);
+ border-radius: 0 0 0 10px;
 }
 
 #reasons {
  background-color: var(--cyan);
+ border-radius: 0 0 10px 0;
 }
 
 button {
